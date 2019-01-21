@@ -3,6 +3,7 @@ A collection of useful tools and software for .NET development systems
 
 ## Apps
 
+* [.NET SDKs for Visual Studio](https://dotnet.microsoft.com/download/visual-studio-sdks)
 * [Chocolatey](https://chocolatey.org/)
 * [E-mage](https://emage.js.org/)
 * [f.lux](https://justgetflux.com/)

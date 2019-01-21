@@ -29,6 +29,7 @@ A collection of useful tools and software for .NET development systems
   * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
   * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
+* [Vivaldi](https://vivaldi.com/)
 
 ## Quality of Life
 * [bingsearch-disable.reg](resources/bingsearch-disable.reg) - Disables web search via start menu.

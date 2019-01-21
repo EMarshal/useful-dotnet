@@ -1,6 +1,8 @@
 # useful .NET
 A collection of useful tools and software for .NET development systems
 
+## Apps
+
 * [f.lux](https://justgetflux.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Ninite](https://ninite.com/)
@@ -23,3 +25,6 @@ A collection of useful tools and software for .NET development systems
   * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
   * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
+
+## Quality of Life
+* [screensaver-disable.reg](scripts/screensaver-disable.reg) - Registery entry to disable screensaver.

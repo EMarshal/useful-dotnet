@@ -31,6 +31,7 @@ A collection of useful tools and software for .NET development systems
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
 
 ## Quality of Life
+* [bingsearch-disable.reg](resources/bingsearch-disable.reg) - Disables web search via start menu.
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
-* [screensaver-disable.reg](resources/screensaver-disable.reg) - Registery entry to disable screensaver.
 * [region.bat](resources/region.bat) - Combined with [region.xml](region.xml), sets reasonable system datetime formats.
+* [screensaver-disable.reg](resources/screensaver-disable.reg) - Registery entry to disable screensaver.

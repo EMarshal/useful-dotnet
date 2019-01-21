@@ -1,0 +1,20 @@
+<gs:GlobalizationServices xmlns:gs="urn:longhornGlobalizationUnattend">
+    <!--User List-->
+    <gs:UserList>
+        <gs:User UserID="Current"/>
+    </gs:UserList>
+    
+    <!--User Locale-->
+    <gs:UserLocale>
+        <gs:Locale Name="en-CA" SetAsCurrent="true" ResetAllSettings="false">
+            <gs:Win32>
+                <gs:sShortTime>H:mm</gs:sShortTime>
+                <gs:sTimeFormat>H:mm:ss</gs:sTimeFormat>
+                <gs:sShortDate>yyyy-MM-dd</gs:sShortDate>
+                <gs:sLongDate>MMMM d, yyyy</gs:sLongDate>
+                <gs:iFirstDayOfWeek>0</gs:iFirstDayOfWeek>
+            </gs:Win32>
+        </gs:Locale>
+    </gs:UserLocale>
+    
+</gs:GlobalizationServices>

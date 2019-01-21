@@ -28,3 +28,4 @@ A collection of useful tools and software for .NET development systems
 
 ## Quality of Life
 * [screensaver-disable.reg](scripts/screensaver-disable.reg) - Registery entry to disable screensaver.
+* [region.bat](scripts/region.bat) - Combined with [region.xml](region.xml), sets reasonable system datetime formats.

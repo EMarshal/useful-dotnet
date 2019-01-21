@@ -1,7 +1,6 @@
 # useful .NET
 A collection of useful tools and software for .NET development systems
 
-* []()
 * [f.lux](https://justgetflux.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Ninite](https://ninite.com/)
@@ -21,4 +20,6 @@ A collection of useful tools and software for .NET development systems
 * [SQL Server 2017](https://my.visualstudio.com/downloads)
 * [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/)
+  * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+  * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)

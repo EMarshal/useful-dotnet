@@ -5,6 +5,7 @@ A collection of useful tools and software for .NET development systems
 
 * [.NET SDKs for Visual Studio](https://dotnet.microsoft.com/download/visual-studio-sdks)
 * [Chocolatey](https://chocolatey.org/)
+  * Notepad++
   * [posh-git](https://github.com/dahlbyk/posh-git)
 * [E-mage](https://emage.js.org/)
 * [f.lux](https://justgetflux.com/)
@@ -16,7 +17,6 @@ A collection of useful tools and software for .NET development systems
 * [Ninite](https://ninite.com/)
   * Chrome
   * 7-Zip
-  * Notepad++
   * foobar2000
   * WinSCP
   * CCCP

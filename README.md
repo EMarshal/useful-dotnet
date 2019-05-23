@@ -34,7 +34,8 @@ A collection of useful tools and software for .NET development systems
 * [Vivaldi](https://vivaldi.com/)
 
 ## Quality of Life
+* [DisableFirefoxUpdates.bat](resources/DisableFirefoxUpdates.bat) - Disables automatic Firefox updates.
 * [bingsearch-disable.reg](resources/bingsearch-disable.reg) - Disables web search via start menu.
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
-* [screensaver-disable.reg](resources/screensaver-disable.reg) - Registery entry to disable screensaver.
+* [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.

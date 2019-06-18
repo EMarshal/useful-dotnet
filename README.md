@@ -15,7 +15,7 @@ A collection of useful tools and software for .NET development systems
 * Microsoft Store
   * Skype
 * [Ninite](https://ninite.com/)
-  * Chrome
+  * Firefox
   * 7-Zip
   * foobar2000
   * WinSCP

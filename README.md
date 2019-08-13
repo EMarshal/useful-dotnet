@@ -13,11 +13,11 @@ A collection of useful tools and software for .NET development systems
 * [Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (Install from here vs. Ninite to allow for EME and language source - e.g. navigate to version-number/win64-EME-free/en/CA/)
 * [GitHub Desktop](https://desktop.github.com/)
 * Microsoft Store
+  * foobar2000
   * Skype
 * [Ninite](https://ninite.com/)
   * Firefox
   * 7-Zip
-  * foobar2000
   * WinSCP
   * CCCP
   * Visual Studio Code (Can update via Ninite, install via own installer for Explorer extensions)

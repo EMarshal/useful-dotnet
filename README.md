@@ -30,6 +30,13 @@ A collection of useful tools and software for .NET development systems
 * [Visual Studio 2017](https://visualstudio.microsoft.com/)
   * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
   * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
+    * Double-Click Maximize
+    * Fix Mixed Tabs
+    * Match Margin
+    * Power Commands for Visual Studio
+    * Shrink Empty Lines
+    * Solution Error Visualizer
+    * Time Stamp Margin
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
 * [Vivaldi](https://vivaldi.com/)
 

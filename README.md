@@ -7,6 +7,7 @@ A collection of useful tools and software for .NET development systems
 * [Chocolatey](https://chocolatey.org/)
   * Notepad++
   * [posh-git](https://github.com/dahlbyk/posh-git)
+  * [PowerShell Core](https://chocolatey.org/packages/powershell-core)
 * [E-mage](https://emage.js.org/)
 * [f.lux](https://justgetflux.com/)
 * [git](https://git-scm.com/) (Install your preferred text editor for git first, so you can select it during git install.)

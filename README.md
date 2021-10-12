@@ -28,8 +28,9 @@ A collection of useful tools and software for .NET development systems
   * Inkscape
 * [SQL Server 2017](https://my.visualstudio.com/downloads)
 * [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/)
   * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+  * [Multiline Search and Replace](https://marketplace.visualstudio.com/items?itemName=PeterMacej.MultilineSearchandReplace)
   * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
     * Double-Click Maximize
     * Fix Mixed Tabs
@@ -38,6 +39,7 @@ A collection of useful tools and software for .NET development systems
     * Shrink Empty Lines
     * Solution Error Visualizer
     * Time Stamp Margin
+  * [XAML Styler](https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler)
 * [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
 * [Vivaldi](https://vivaldi.com/)
 

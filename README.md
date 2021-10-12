@@ -18,6 +18,7 @@ A collection of useful tools and software for .NET development systems
   * Skype
 * [Ninite](https://ninite.com/)
   * Firefox
+    * Disable DNS over HTTPS if using custom DOH
   * 7-Zip
   * WinSCP
   * CCCP

@@ -1,2 +1,8 @@
 * text eol=crlf
+
+*.bat text
+*.json text
 *.reg text
+*.xml text
+
+*.png binary

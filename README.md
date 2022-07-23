@@ -7,8 +7,6 @@ A collection of useful tools and software for .NET development systems
 * [Chocolatey](https://chocolatey.org/)
   * Notepad++
   * [posh-git](https://github.com/dahlbyk/posh-git)
-  * [PowerShell Core](https://chocolatey.org/packages/powershell-core)
-* [E-mage](https://emage.js.org/)
 * [f.lux](https://justgetflux.com/)
 * [git](https://git-scm.com/) (Install your preferred text editor for git first, so you can select it during git install.)
 * [Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (Install from here vs. Ninite to allow for EME and language source - e.g. navigate to version-number/win64-EME-free/en/CA/)
@@ -17,8 +15,6 @@ A collection of useful tools and software for .NET development systems
   * foobar2000
   * Skype
 * [Ninite](https://ninite.com/)
-  * Firefox
-    * Disable DNS over HTTPS if using custom DOH
   * 7-Zip
   * WinSCP
   * CCCP
@@ -27,6 +23,7 @@ A collection of useful tools and software for .NET development systems
   * KeePass 2
   * Paint.NET
   * Inkscape
+* [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
 * [SQL Server 2017](https://my.visualstudio.com/downloads)
 * [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/)

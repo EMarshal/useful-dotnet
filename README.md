@@ -47,3 +47,14 @@ A collection of useful tools and software for .NET development systems
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
 * [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.
+
+### Windows Settings
+* Disable Automatic Updates
+    * Group Policy Editor - Computer Configuration > Administrative Templates > Windows Components > Windows Updates > Manage end user experience > Configure Automatic Updates
+      * Disabled
+* Disable Shutdown Event Tracker
+  * Group Policy Editor - Computer Configuration > Administrative Templates > System > Display Shutdown Event Tracker
+    * Disabled
+* Disable Widgets
+    * Group Policy Editory - Computer Configuration > Administrative Templates > Windows Components > Widgets > Allow Widgets
+      * Disabled

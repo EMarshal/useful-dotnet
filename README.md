@@ -44,6 +44,7 @@ A collection of useful tools and software for .NET development systems
 ## Quality of Life
 * [DisableFirefoxUpdates.bat](resources/DisableFirefoxUpdates.bat) - Disables automatic Firefox updates.
 * [bingsearch-disable.reg](resources/bingsearch-disable.reg) - Disables web search via start menu.
+* [widget-disable.reg](resources/widget-disable.reg) - Disables start menu widgets and associated service.
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
 * [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.

@@ -5,24 +5,22 @@ A collection of useful tools and software for .NET development systems
 
 * [.NET SDKs for Visual Studio](https://dotnet.microsoft.com/download/visual-studio-sdks)
 * [Chocolatey](https://chocolatey.org/)
+  * 7-Zip
+  * GIMP
   * Notepad++
+  * Paint.NET
   * [posh-git](https://github.com/dahlbyk/posh-git)
+  * WinSCP
 * [f.lux](https://justgetflux.com/)
 * [git](https://git-scm.com/) (Install your preferred text editor for git first, so you can select it during git install.)
-* [Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (Install from here vs. Ninite to allow for EME and language source - e.g. navigate to version-number/win64-EME-free/en/CA/)
+* [Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (navigate to version-number/win64-EME-free/en/CA/)
 * [GitHub Desktop](https://desktop.github.com/)
 * Microsoft Store
   * foobar2000
-  * Skype
 * [Ninite](https://ninite.com/)
-  * 7-Zip
-  * WinSCP
+
   * CCCP
   * Visual Studio Code (Can update via Ninite, install via own installer for Explorer extensions)
-  * GIMP
-  * KeePass 2
-  * Paint.NET
-  * Inkscape
 * [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
 * [SQL Server 2017](https://my.visualstudio.com/downloads)
 * [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)
@@ -38,11 +36,10 @@ A collection of useful tools and software for .NET development systems
     * Solution Error Visualizer
     * Time Stamp Margin
   * [XAML Styler](https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler)
-* [Visual Studio Code](https://code.visualstudio.com/) (Install prior to Ninite for Explorer extensions)
+* [Visual Studio Code](https://code.visualstudio.com/Download) (Use System Installer)
 * [Vivaldi](https://vivaldi.com/)
 
 ## Quality of Life
-* [DisableFirefoxUpdates.bat](resources/DisableFirefoxUpdates.bat) - Disables automatic Firefox updates.
 * [bingsearch-disable.reg](resources/bingsearch-disable.reg) - Disables web search via start menu.
 * [widget-disable.reg](resources/widget-disable.reg) - Disables start menu widgets and associated service.
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.

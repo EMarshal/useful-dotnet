@@ -45,6 +45,7 @@ A collection of useful tools and software for .NET development systems
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
 * [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.
+* [ShowFileExtensions.reg](resources/ShowFileExtensions.reg) - Registry entry to show file extensions in explorer.
 
 ### Windows Settings
 * Disable Automatic Updates
@@ -54,5 +55,11 @@ A collection of useful tools and software for .NET development systems
   * Group Policy Editor - Computer Configuration > Administrative Templates > System > Display Shutdown Event Tracker
     * Disabled
 * Disable Widgets
-    * Group Policy Editory - Computer Configuration > Administrative Templates > Windows Components > Widgets > Allow Widgets
+    * Group Policy Editor - Computer Configuration > Administrative Templates > Windows Components > Widgets > Allow Widgets
       * Disabled
+* Disable Copilot
+    * Group Policy Editor - User Configuration > Administrative Templates > Windows Components > Windows Copilot > Turn off Windows Copilot
+      * Enabled
+* Disable Storage Sense 
+    * Group Policy Editory - Computer Configuration > Administrative Templates > System > Storage Sense > Allow Storage Sense
+	  * Disabled

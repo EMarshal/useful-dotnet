@@ -1,0 +1,44 @@
+# https://aka.ms/dsc.yaml
+# https://aka.ms/configuration-dsc-schema/
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+# https://github.com/dsccommunity/ComputerManagementDsc
+# https://github.com/PowerShell/PSDscResources
+properties:
+  resources:
+    - resource: ComputerManagementDsc/SystemLocale
+      id: SetSystemLocale
+      directives:
+        description: Set System Locale
+      settings:
+        IsSingleInstance: Yes
+        SystemLocale: en-ca
+    - resource: PSDscResources/Registry
+      id: DisableSearchBoxSuggestions
+      directives:
+        description: Disable start menu web search
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Policies\Microsoft\Windows\Explorer'
+        Ensure: Present
+        ValueName: DisableSearchBoxSuggestions
+        ValueType: DWord
+        ValueData: 1
+        Force: true
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: RemoveNews
+      directives:
+        description: Remove News App
+      settings:
+        id: "9WZDNCRFHVFW"
+        source: msstore
+        Ensure: Absent
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      # Powers Windows widgets
+      id: RemoveWebExperiencePack
+      directives:
+        description: Remove Windows Web Experience Pack
+      settings:
+        id: "9MSSGKG348SP"
+        source: msstore
+        Ensure: Absent
+  configurationVersion: 0.2.0

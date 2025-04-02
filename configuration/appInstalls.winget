@@ -1,0 +1,15 @@
+# https://aka.ms/dsc.yaml
+# https://aka.ms/configuration-dsc-schema/
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+# https://github.com/microsoft/winget-cli/blob/master/src/PowerShell/Help/Microsoft.WinGet.DSC/WinGetPackage.md
+properties:
+  resources:
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: InstallPowerShell
+      directives:
+        description: Install PowerShell
+      settings:
+        id: "9MZ1SNWT0N5D"
+        source: msstore
+        Ensure: Present
+  configurationVersion: 0.2.0

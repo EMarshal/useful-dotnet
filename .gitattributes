@@ -4,6 +4,9 @@
 *.ps1 text
 *.json text
 *.reg text
+*.winget text
 *.xml text
+*.yaml text
+*.yml text
 
 *.png binary

@@ -8,6 +8,7 @@ properties:
       id: InstallNotepad++
       directives:
         description: Install Notepad++
+        securityContext: elevated
       settings:
         id: Notepad++.Notepad++
         source: winget

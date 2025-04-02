@@ -61,6 +61,6 @@ A collection of useful tools and software for .NET development systems
 * Disable Copilot
     * Group Policy Editor - User Configuration > Administrative Templates > Windows Components > Windows Copilot > Turn off Windows Copilot
       * Enabled
-* Disable Storage Sense 
+* Disable Storage Sense
     * Group Policy Editory - Computer Configuration > Administrative Templates > System > Storage Sense > Allow Storage Sense
-	  * Disabled
+      * Disabled

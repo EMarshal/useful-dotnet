@@ -1,6 +1,7 @@
-* text eol=crlf
+* text eol=lf
 
 *.bat text
+*.ps1 text
 *.json text
 *.reg text
 *.xml text

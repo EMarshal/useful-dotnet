@@ -3,7 +3,7 @@
     <gs:UserList>
         <gs:User UserID="Current"/>
     </gs:UserList>
-    
+
     <!--User Locale-->
     <gs:UserLocale>
         <gs:Locale Name="en-CA" SetAsCurrent="true" ResetAllSettings="false">
@@ -16,5 +16,5 @@
             </gs:Win32>
         </gs:Locale>
     </gs:UserLocale>
-    
+
 </gs:GlobalizationServices>

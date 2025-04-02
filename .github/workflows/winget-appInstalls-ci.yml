@@ -1,0 +1,36 @@
+name: Apply WinGet config - appInstalls
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'configuration/appInstalls.winget'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'configuration/appInstalls.winget'
+
+jobs:
+  configure:
+    runs-on: windows-2025
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        sparse-checkout: |
+          .github/workflows/UpgradeWinGet.ps1
+          configuration/appInstalls.winget
+        sparse-checkout-cone-mode: false
+
+    - name: Print WinGet Version
+      run: winget --version
+
+    - name: WinGet upgrade
+      run: .\.github\workflows\UpgradeWinGet.ps1
+
+    - name: WinGet configure
+      run: winget configure .\configuration\appInstalls.winget --accept-configuration-agreements --verbose

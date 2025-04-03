@@ -27,7 +27,6 @@ A collection of useful tools and software for .NET development systems
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
 * [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.
 * [SetWinUserLanguageList.ps1](resources/SetWinUserLanguageList.ps1) - Sets user language list to en-CA / United States - Dvorak.
-* [ShowFileExtensions.reg](resources/ShowFileExtensions.reg) - Registry entry to show file extensions in explorer.
 
 ### Windows Settings
 * Disable Automatic Updates

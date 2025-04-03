@@ -24,6 +24,18 @@ properties:
         ValueType: DWord
         ValueData: 1
         Force: true
+    - resource: PSDscResources/Registry
+      id: ShowExtensions
+      directives:
+        description: Show extensions for known file times
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+        Ensure: Present
+        ValueName: HideFileExt
+        ValueType: DWord
+        ValueData: 0
+        Force: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: RemoveNews
       directives:

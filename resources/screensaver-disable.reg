@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop]
-"SCRNSAVE.EXE"="scrnsave.scr"
-"ScreenSaverIsSecure"="0"
-"ScreenSaveTimeOut"="330000"
-"ScreenSaveActive"="0"

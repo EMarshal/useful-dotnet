@@ -3,7 +3,7 @@ A collection of useful tools and software for .NET development systems
 
 ## Apps
 
-* [.NET SDKs for Visual Studio](https://dotnet.microsoft.com/download/visual-studio-sdks)
+* [Caffeine](https://www.zhornsoftware.co.uk/caffeine/)
 * [Scoop](https://scoop.sh/)
   * [posh-git](https://github.com/dahlbyk/posh-git)
 * [git](https://git-scm.com/) (Install your preferred text editor for git first, so you can select it during git install.)
@@ -25,7 +25,6 @@ A collection of useful tools and software for .NET development systems
 ## Quality of Life
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
-* [screensaver-disable.reg](resources/screensaver-disable.reg) - Registry entry to disable screensaver.
 * [SetWinUserLanguageList.ps1](resources/SetWinUserLanguageList.ps1) - Sets user language list to en-CA / United States - Dvorak.
 
 ### Windows Settings

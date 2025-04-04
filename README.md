@@ -24,8 +24,7 @@ A collection of useful tools and software for .NET development systems
 
 ## Quality of Life
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
-* [region.bat](resources/region.bat) - Combined with [region.xml](resources/region.xml), sets reasonable system datetime formats.
-* [SetWinUserLanguageList.ps1](resources/SetWinUserLanguageList.ps1) - Sets user language list to en-CA / United States - Dvorak.
+* [SetLanguage.ps1](resources/SetLanguage.ps1) - Sets user language list to en-CA / United States - Dvorak and culture to en-CA.
 
 ### Windows Settings
 * Disable Automatic Updates

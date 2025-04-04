@@ -36,6 +36,30 @@ properties:
         ValueType: DWord
         ValueData: 0
         Force: true
+    - resource: PSDscResources/Registry
+      id: SetShortTime
+      directives:
+        description: Set short time pattern
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Control Panel\International'
+        Ensure: Present
+        ValueName: sShortTime
+        ValueType: String
+        ValueData: 'H:mm'
+        Force: true
+    - resource: PSDscResources/Registry
+      id: SetLongTime
+      directives:
+        description: Set long time pattern
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Control Panel\International'
+        Ensure: Present
+        ValueName: sTimeFormat
+        ValueType: String
+        ValueData: 'H:mm:ss'
+        Force: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: RemoveNews
       directives:

@@ -26,16 +26,16 @@ A collection of useful tools and software for .NET development systems
 * [lockscreen.png](resources/lockscreen.png) - 1 × 1 gray pixel to serve as tiled lockscreen and sign-on screen background.
 * [SetLanguage.ps1](resources/SetLanguage.ps1) - Sets user language list to en-CA / United States - Dvorak and culture to en-CA.
 
+## Manual Windows config
+* Set Windows display language to English (Canada)
+
 ### Windows Settings
 * Disable Automatic Updates
-    * Group Policy Editor - Computer Configuration > Administrative Templates > Windows Components > Windows Updates > Manage end user experience > Configure Automatic Updates
-      * Disabled
+  * Group Policy Editor - Computer Configuration\Administrative Templates\Windows Components\Windows Updates\Manage end user experience\Configure Automatic Updates
+    * Disabled
 * Disable Shutdown Event Tracker
-  * Group Policy Editor - Computer Configuration > Administrative Templates > System > Display Shutdown Event Tracker
+  * Group Policy Editor - Computer Configuration\Administrative Templates\System\Display Shutdown Event Tracker
     * Disabled
 * Disable Copilot
-    * Group Policy Editor - User Configuration > Administrative Templates > Windows Components > Windows Copilot > Turn off Windows Copilot
+    * Group Policy Editor - User Configuration\Administrative Templates\Windows Components\Windows Copilot\Turn off Windows Copilot
       * Enabled
-* Disable Storage Sense
-    * Group Policy Editory - Computer Configuration > Administrative Templates > System > Storage Sense > Allow Storage Sense
-      * Disabled

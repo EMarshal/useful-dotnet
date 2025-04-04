@@ -60,6 +60,42 @@ properties:
         ValueType: String
         ValueData: 'H:mm:ss'
         Force: true
+    - resource: PSDscResources/Registry
+      id: HideTaskbarSearch
+      directives:
+        description: Hide the Taskbar search box
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Search'
+        Ensure: Present
+        ValueName: SearchboxTaskbarMode
+        ValueType: DWord
+        ValueData: 0
+        Force: true
+    - resource: PSDscResources/Registry
+      id: EnableMSProductUpdates
+      directives:
+        description: Receive updates for other Microsoft products
+        securityContext: elevated
+      settings:
+        Key: 'HKLM:\Software\Microsoft\WindowsUpdate\UX\Settings'
+        Ensure: Present
+        ValueName: AllowMUUpdateService
+        ValueType: DWord
+        ValueData: 1
+        Force: true
+    - resource: PSDscResources/Registry
+      id: DisableSuggestedToast
+      directives:
+        description: Disable suggestion notifications
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.Suggested'
+        Ensure: Present
+        ValueName: Enabled
+        ValueType: DWord
+        ValueData: 0
+        Force: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: RemoveNews
       directives:

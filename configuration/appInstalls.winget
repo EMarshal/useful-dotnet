@@ -29,4 +29,13 @@ properties:
         id: Microsoft.VisualStudioCode
         source: winget
         Ensure: Present
+    # Lets us remap the copilot key (among other things)
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: InstallPowerToys
+      directives:
+        description: Install PowerToys
+      settings:
+        id: "XP89DCGQ3K6VLD"
+        source: msstore
+        Ensure: Present
   configurationVersion: 0.2.0

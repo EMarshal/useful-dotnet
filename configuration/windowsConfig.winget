@@ -113,4 +113,22 @@ properties:
         id: "9MSSGKG348SP"
         source: msstore
         Ensure: Absent
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: RemoveAcrobatReader
+      directives:
+        description: Remove Adobe Acrobat Reader
+        securityContext: elevated
+      settings:
+        id: "Adobe.Acrobat.Reader.32-bit"
+        source: winget
+        Ensure: Absent
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: RemoveGoogleChrome
+      directives:
+        description: Remove Google Chrome
+        securityContext: elevated
+      settings:
+        id: "Google.Chrome"
+        source: winget
+        Ensure: Absent
   configurationVersion: 0.2.0

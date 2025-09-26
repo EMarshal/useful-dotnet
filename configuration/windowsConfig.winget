@@ -24,6 +24,78 @@ properties:
         ValueType: DWord
         ValueData: 1
         Force: true
+    - resource: PSDscResources/Registry
+      id: ShowExtensions
+      directives:
+        description: Show extensions for known file times
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+        Ensure: Present
+        ValueName: HideFileExt
+        ValueType: DWord
+        ValueData: 0
+        Force: true
+    - resource: PSDscResources/Registry
+      id: SetShortTime
+      directives:
+        description: Set short time pattern
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Control Panel\International'
+        Ensure: Present
+        ValueName: sShortTime
+        ValueType: String
+        ValueData: 'H:mm'
+        Force: true
+    - resource: PSDscResources/Registry
+      id: SetLongTime
+      directives:
+        description: Set long time pattern
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Control Panel\International'
+        Ensure: Present
+        ValueName: sTimeFormat
+        ValueType: String
+        ValueData: 'H:mm:ss'
+        Force: true
+    - resource: PSDscResources/Registry
+      id: HideTaskbarSearch
+      directives:
+        description: Hide the Taskbar search box
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Search'
+        Ensure: Present
+        ValueName: SearchboxTaskbarMode
+        ValueType: DWord
+        ValueData: 0
+        Force: true
+    - resource: PSDscResources/Registry
+      id: EnableMSProductUpdates
+      directives:
+        description: Receive updates for other Microsoft products
+        securityContext: elevated
+      settings:
+        Key: 'HKLM:\Software\Microsoft\WindowsUpdate\UX\Settings'
+        Ensure: Present
+        ValueName: AllowMUUpdateService
+        ValueType: DWord
+        ValueData: 1
+        Force: true
+    - resource: PSDscResources/Registry
+      id: DisableSuggestedToast
+      directives:
+        description: Disable suggestion notifications
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.Suggested'
+        Ensure: Present
+        ValueName: Enabled
+        ValueType: DWord
+        ValueData: 0
+        Force: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: RemoveNews
       directives:
@@ -40,5 +112,23 @@ properties:
       settings:
         id: "9MSSGKG348SP"
         source: msstore
+        Ensure: Absent
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: RemoveAcrobatReader
+      directives:
+        description: Remove Adobe Acrobat Reader
+        securityContext: elevated
+      settings:
+        id: "Adobe.Acrobat.Reader.32-bit"
+        source: winget
+        Ensure: Absent
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: RemoveGoogleChrome
+      directives:
+        description: Remove Google Chrome
+        securityContext: elevated
+      settings:
+        id: "Google.Chrome"
+        source: winget
         Ensure: Absent
   configurationVersion: 0.2.0

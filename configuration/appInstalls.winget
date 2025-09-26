@@ -5,11 +5,37 @@
 properties:
   resources:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: InstallNotepad++
+      directives:
+        description: Install Notepad++
+        securityContext: elevated
+      settings:
+        id: Notepad++.Notepad++
+        source: winget
+        Ensure: Present
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: InstallPowerShell
       directives:
         description: Install PowerShell
       settings:
         id: "9MZ1SNWT0N5D"
+        source: msstore
+        Ensure: Present
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: InstallVSCode
+      directives:
+        description: Install Visual Studio Code
+      settings:
+        id: Microsoft.VisualStudioCode
+        source: winget
+        Ensure: Present
+    # Lets us remap the copilot key (among other things)
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: InstallPowerToys
+      directives:
+        description: Install PowerToys
+      settings:
+        id: "XP89DCGQ3K6VLD"
         source: msstore
         Ensure: Present
   configurationVersion: 0.2.0

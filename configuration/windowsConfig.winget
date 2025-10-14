@@ -96,6 +96,18 @@ properties:
         ValueType: DWord
         ValueData: 0
         Force: true
+    - resource: PSDscResources/Registry
+      id: DontShowTabsOnAltTab
+      directives:
+        description: "Don't show tabs from apps when pressing Alt + Tab"
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+        Ensure: Present
+        ValueName: MultiTaskingAltTabFilter
+        ValueType: DWord
+        ValueData: 3
+        Force: true
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: RemoveNews
       directives:

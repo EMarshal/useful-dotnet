@@ -11,7 +11,20 @@ properties:
         description: Set System Locale
       settings:
         IsSingleInstance: Yes
-        SystemLocale: en-ca
+        SystemLocale: en-ca    
+    - resource: PSDscResources/Registry
+    # https://learn.microsoft.com/en-ca/deployedge/microsoft-edge-browser-policies/showrecommendationsenabled
+      id: DisableShowRecommendationsEnabled
+      directives:
+        description: Disable Edge recommendations
+        securityContext: elevated
+      settings:
+        Key: 'HKCU:\Software\Policies\Microsoft\Edge'
+        Ensure: Present
+        ValueName: ShowRecommendationsEnabled
+        ValueType: DWord
+        ValueData: 0
+        Force: true
     - resource: PSDscResources/Registry
       id: DisableSearchBoxSuggestions
       directives:

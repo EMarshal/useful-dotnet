@@ -39,3 +39,6 @@ A collection of useful tools and software for .NET development systems
 * Disable Copilot
     * Group Policy Editor - User Configuration\Administrative Templates\Windows Components\Windows Copilot\Turn off Windows Copilot
       * Enabled
+* Disable Bundled Driver Apps
+    * Group Policy Editor - Computer Configuration\Administrative Templates\System\Device Installation\Prevent automatic download of applications associated with metadata
+      * Enabled
